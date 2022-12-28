@@ -17,14 +17,11 @@ int main()
 
     while (lowerchar < 97 || lowerchar > 122)
     {
-        if (lowerchar < 97 || lowerchar > 122)
-        {
             printf("\nPlease enter a valid lowercase character: ");
             scanf("%c", &lowerchar);
 
             ascii = lowerchar;
             upperchar = ascii - 32;
-        }
     }
 
     printf("\nThe uppercase character is: %c\n", upperchar);
