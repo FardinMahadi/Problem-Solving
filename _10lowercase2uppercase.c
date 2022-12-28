@@ -9,7 +9,7 @@ int main()
     // ASCII values of A-Z (uppercase alphabets) are 65-90
     // And ASCII values of a-z (lowercase alphabets) are 97-122
 
-    printf("\nEnter a character: ");
+    printf("\nEnter a lowercase character: ");
     scanf("%c", &lowerchar);
 
     ascii = lowerchar;
@@ -27,7 +27,7 @@ int main()
         }
     }
 
-    printf("\nThe uppercase is: %c\n", upperchar);
+    printf("\nThe uppercase character is: %c\n", upperchar);
 
     return 0;
 }
