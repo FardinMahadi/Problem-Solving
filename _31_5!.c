@@ -2,14 +2,14 @@
 
 int main()
 {
-    int i, factorial;
+    int i, factorial = 1;
 
     printf("\n\n");
     
     for (i = 1; i <= 5; i++)
     {
         printf("%dX", i);
-        factorial = 1 * i;
+        factorial = factorial * i;
     }
 
     printf("\b = %d\n\n", factorial);
