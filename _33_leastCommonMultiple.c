@@ -21,7 +21,7 @@ int main()
         k = n2;
     }
 
-again:
+    again:
     if (k % n1 == 0 && k % n2 == 0)
     {
         printf("The LCD of %d and %d is %d", n1, n2, k);
