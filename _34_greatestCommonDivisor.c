@@ -2,7 +2,7 @@
 
 int main()
 {
-    int a, b, x, gcd;
+    int a, b, min, gcd;
 
     printf("Enter number one: ");
     scanf("%d", &a);
@@ -12,18 +12,18 @@ int main()
 
     if (a < b)
     {
-        x = a;
+        min = a;
     }
     else
     {
-        x = b;
+        min = b;
     }
 
-    for (x >= 1; x--;)
+    for (min >= 1; min--;)
     {
-        if (a % x == 0 && b % x == 0)
+        if (a % min == 0 && b % min == 0)
         {
-            gcd = x;
+            gcd = min;
             break;
         }
     }
