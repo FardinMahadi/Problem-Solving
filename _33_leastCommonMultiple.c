@@ -5,7 +5,7 @@ int main()
     int n1, n2, k;
 
     printf("Enter number one: ");
-    scanf("%d", &n1);
+    scanf("%d", &n1);   
 
     printf("Enter number two: ");
     scanf("%d", &n2);
